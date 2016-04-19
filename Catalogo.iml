@@ -12,7 +12,6 @@
       <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/repositorio" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/util" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/view" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bin" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>

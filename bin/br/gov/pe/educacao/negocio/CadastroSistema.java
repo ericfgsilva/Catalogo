@@ -1,4 +1,4 @@
-package br.gov.pe.educa.negocio;
+package br.gov.pe.educacao.negocio;
 
 /**
  * Created by eric.silva on 18/04/2016.

@@ -1,4 +1,4 @@
-package br.gov.pe.educa.entidades;
+package br.gov.pe.educacao.entidades;
 
 /**
  * Created by eric.silva on 18/04/2016.
