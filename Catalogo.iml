@@ -5,13 +5,13 @@
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/entidades" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/interfaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/br/gov/pe/educacao/br/gov/pe/educacao/entidades" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/br/gov/pe/educacao/br/gov/pe/educacao/interfaces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/negocio" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/repositorio" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/util" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/bin/br/gov/pe/educacao/view" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/br/gov/pe/educacao/br/gov/pe/educacao/negocio" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/br/gov/pe/educacao/br/gov/pe/educacao/repositorio" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/br/gov/pe/educacao/br/gov/pe/educacao/util" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/br/gov/pe/educacao/br/gov/pe/educacao/view" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bin" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
