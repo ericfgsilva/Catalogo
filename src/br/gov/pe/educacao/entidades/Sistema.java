@@ -1,10 +1,9 @@
-package br.gov.pe.educacao.br.gov.pe.educacao.entidades;
+package br.gov.pe.educacao.entidades;
 
 /**
  * Created by eric.silva on 18/04/2016.
  */
 import java.io.Serializable;
-import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -14,7 +13,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(
-        name = "tb_cliente",
+        name = "tb_sistema",
         schema = "public"
 )
 public class Sistema implements Serializable {
@@ -24,21 +23,22 @@ public class Sistema implements Serializable {
     private String nome;
     @Id
     @Column(
-            name = "CPF"
+            name = "SIGLA"
     )
-    private String cpf;
-    @OneToMany(
-            mappedBy = "cliente",
-            fetch = FetchType.LAZY
-    )
-    private List<ContaAbstrata> contas;
 
-    public Cliente() {
+    private String sigla;
+
+/*    @OneToMany(
+            mappedBy = "sistema",
+            fetch = FetchType.LAZY
+    )*/
+
+    public Sistema() {
     }
 
-    public Cliente(String nome, String cpf) {
+    public Sistema(String nome, String sigla) {
         this.nome = nome;
-        this.cpf = cpf;
+        this.sigla = sigla;
     }
 
     public String getNome() {
@@ -49,23 +49,15 @@ public class Sistema implements Serializable {
         this.nome = nome;
     }
 
-    public String getCpf() {
-        return this.cpf;
+    public String getSigla() {
+        return this.sigla;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public List<ContaAbstrata> getContas() {
-        return this.contas;
-    }
-
-    public void setContas(List<ContaAbstrata> contas) {
-        this.contas = contas;
+    public void setSigla(String sigla) {
+        this.sigla = sigla;
     }
 
     public String toString() {
-        return "Cliente: [nome = " + this.nome + ", cpf = " + this.cpf + "]";
+        return "Sistema: [nome = " + this.nome + ", sigla = " + this.sigla + "]";
     }
 }
