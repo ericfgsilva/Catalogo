@@ -10,7 +10,8 @@ public interface RepositorioSistema {
 
     void inserir(Sistema s);
     Sistema procurar(String sigla) throws SistemaNaoCadastradoException;
-    void remover(String sigla) throws SistemaNaoCadastradoException;
-    boolean existe(String sigla) throws SistemaNaoCadastradoException;
+    /**implementar a busca com bind por codigo/sigla*/
+    void remover(Long codigo) throws SistemaNaoCadastradoException;
+    boolean existe(Long codigo) throws SistemaNaoCadastradoException;
     void atualizar(Sistema s) throws SistemaNaoCadastradoException;
 }

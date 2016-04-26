@@ -4,12 +4,7 @@ package br.gov.pe.educacao.entidades;
  * Created by eric.silva on 18/04/2016.
  */
 import java.io.Serializable;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(
@@ -21,14 +16,20 @@ public class Sistema implements Serializable {
             name = "NOME"
     )
     private String nome;
-    @Id
+
     @Column(
             name = "SIGLA"
     )
-
     private String sigla;
 
-/*    @OneToMany(
+    @Id
+    @GeneratedValue
+    @Column(
+           name = "CODIGO"
+    )
+    private Long codigo;
+
+   /* @OneToMany(
             mappedBy = "sistema",
             fetch = FetchType.LAZY
     )*/
@@ -36,9 +37,10 @@ public class Sistema implements Serializable {
     public Sistema() {
     }
 
-    public Sistema(String nome, String sigla) {
+    public Sistema(String nome, String sigla, Long codigo) {
         this.nome = nome;
         this.sigla = sigla;
+        this.codigo = codigo;
     }
 
     public String getNome() {
@@ -57,7 +59,15 @@ public class Sistema implements Serializable {
         this.sigla = sigla;
     }
 
+    public Long getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(Long codigo) {
+        this.codigo = codigo;
+    }
+
     public String toString() {
-        return "Sistema: [nome = " + this.nome + ", sigla = " + this.sigla + "]";
+        return "Sistema: [nome = " + this.nome + ", sigla = " + this.sigla + ", codigo = " + this.codigo + "]";
     }
 }

@@ -23,20 +23,19 @@ public class CadastroSistema {
 
     }
     public void cadastrar(Sistema s) throws SistemaJaCadastradoException, CampoNumericoPreenchidoComLetrasException, CampoObrigatorioNaoPreenchidoException, SistemaInvalidoException, SistemaNaoCadastradoException, RemoteException {
-        if (!respositorioSistema.existe(s.getSigla())) {
+        if (!respositorioSistema.existe(s.getCodigo())) {
             validar(s);
             respositorioSistema.inserir(s);
-
         } else {
             throw new SistemaJaCadastradoException("Sistema já cadastrado !");
         }
     }
 
-    public void descadastrar(String n) throws SistemaNaoCadastradoException, RemoteException {
-        respositorioSistema.remover(n);
+    public void descadastrar(Long c) throws SistemaNaoCadastradoException, SistemaInvalidoException, RemoteException {
+        respositorioSistema.remover(c);
     }
-    public Sistema procurar(String n) throws SistemaNaoCadastradoException, RemoteException {
-        return respositorioSistema.procurar(n);
+    public Sistema procurar(String s) throws SistemaNaoCadastradoException, SistemaInvalidoException, RemoteException {
+        return respositorioSistema.procurar(s);
     }
 
     public void validar(Sistema sistema)
@@ -44,10 +43,10 @@ public class CadastroSistema {
             CampoObrigatorioNaoPreenchidoException,
             SistemaInvalidoException {
         if (sistema == null) {
-            throw new SistemaInvalidoException("Sistema não informado !");
+            throw new CampoObrigatorioNaoPreenchidoException("Sistema não informado !");
         }
         sistema.setNome(sistema.getNome().toUpperCase());
-        sistema.setSigla(sistema.getSigla().trim().replaceAll("[^\\d]+", ""));
+        sistema.setSigla(sistema.getSigla().toUpperCase());
 
         if (sistema.getSigla() == null || sistema.getSigla().isEmpty()) {
             throw new CampoObrigatorioNaoPreenchidoException("Favor informar a Sigla do sistema !");
