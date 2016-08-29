@@ -2,27 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf1d1ff9-ff11-4f4e-9cc6-91c0b1411117" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/entidades/Sistema.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/interfaces/RepositorioSistema.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/main/Fachada.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/CadastroSistema.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/CampoNumericoPreenchidoComLetrasException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/CampoObrigatorioNaoPreenchidoException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaInvalidoException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaJaCadastradoException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaNaoCadastradoException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaNaoEncontradoException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/repositorio/RepositorioSistemaHibernate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/util/CatalogoUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarCliente.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarSistema.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarSistema.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/view/TelaPrincipal.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/gov/pe/educacao/view/TelaPrincipal.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-c3p0-4.2.3.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-commons-annotations-4.0.2.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-core-4.2.3.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-ehcache-4.2.3.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-entitymanager-4.2.3.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-envers-4.2.3.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-infinispan-4.2.3.Final-tests.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-infinispan-4.2.3.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-osgi-4.2.3.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate-proxool-4.2.3.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/Sistema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/SistemaAbstrato.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/SistemaAccess.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/SistemaBi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/SistemaWeb.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/Usuario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/interfaces/RepositorioSistema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/interfaces/RepositorioUsuario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/main/Fachada.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/main/TestaConexao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/CrudSistema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/CrudUsuario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/CampoNumericoPreenchidoComLetrasException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/CampoObrigatorioNaoPreenchidoException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/UsuarioInvalidoException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/UsuarioJaCadastradoException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/UsuarioNaoCadastradoException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/repositorio/RepositorioSistemaHibernate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/repositorio/RepositorioUsuarioHibernate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/util/CatalogoUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudSistema.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudSistema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudUsuario.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudUsuario.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Catalogo.iml" afterPath="$PROJECT_DIR$/Catalogo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" />
     </list>
     <ignored path="Catalogo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,13 +62,37 @@
     <favorites_list name="Catalogo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CatalogoUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/util/CatalogoUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Html5" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -92,6 +134,23 @@
         <option value="$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarSistema.java" />
         <option value="$PROJECT_DIR$/src/br/gov/pe/educacao/repositorio/RepositorioSistemaHibernate.java" />
         <option value="$PROJECT_DIR$/src/br/gov/pe/educacao/view/TelaPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/SistemaBi.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/SistemaAccess.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/SistemaWeb.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/SistemasAbstract.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/entidade/Sistema.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/entidade/SistemasAbstract.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/entidade/SistemaAbstrato.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/entidade/SistemaWeb.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/entidade/SistemaAccess.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/entidade/SistemaBi.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudSistema.html" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudUsuario.html" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/ClienteJaCadastradoException.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/main/TestaConexao.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/util/QualitiUtil.java" />
+        <option value="$PROJECT_DIR$/src/br/com/eric/catalogo/util/CatalogoUtil.java" />
       </list>
     </option>
   </component>
@@ -140,7 +199,6 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,52 +217,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Catalogo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Catalogo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Catalogo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Catalogo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="br" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eric" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +227,7 @@
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -220,12 +235,6 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projetos\SEE-PE\Catalogo\src\br\gov\pe\educacao\view" />
-      <recent name="D:\Projetos\SEE-PE\Catalogo\src\br\gov\pe\educacao\negocio\excecoes" />
-      <recent name="D:\Projetos\SEE-PE\Catalogo" />
-      <recent name="D:\Projetos\SEE-PE\Catalogo\src\META" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projetos\SEE-PE\Catalogo" />
     </key>
@@ -234,8 +243,16 @@
       <recent name="br.gov.pe.edu" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.eric.catalogo.util" />
       <recent name="br.gov.pe.educacao.main" />
       <recent name="br.gov.pe.educacao.negocio.excecoes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/br/com/eric/catalogo" />
+      <recent name="$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes" />
+      <recent name="D:\Projetos\SEE-PE\Catalogo\src\br\gov\pe\educacao\view" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TelaPrincipal">
@@ -606,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1461377660519</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Change structure">
+      <created>1472430801230</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1472430801230</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -615,29 +639,29 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24673328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -683,7 +707,8 @@
     <MESSAGE value="change sistema.class object" />
     <MESSAGE value="bootstrap accordion included" />
     <MESSAGE value="Create include system and repository class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create include system and repository class" />
+    <MESSAGE value="Change structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -694,33 +719,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/CadastroSistema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/entidades/Sistema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/CadastroSistema.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/entidades/Sistema.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,48 +735,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaNaoCadastradoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaJaCadastradoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaNaoEncontradoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaInvalidoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/CampoNumericoPreenchidoComLetrasException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/CampoObrigatorioNaoPreenchidoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaNaoCadastradoException.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaJaCadastradoException.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaNaoEncontradoException.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/SistemaInvalidoException.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/CampoNumericoPreenchidoComLetrasException.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/excecoes/CampoObrigatorioNaoPreenchidoException.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0.2/persistence-api-1.0.2.jar!/javax/persistence/Persistence.class" />
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -782,82 +750,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/entidades/Sistema.java">
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/entidades/Sistema.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/util/CatalogoUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/interfaces/RepositorioSistema.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/main/Fachada.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarCliente.form" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/TelaPrincipal.form" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/CadastroSistema.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarSistema.html" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/repositorio/RepositorioSistemaHibernate.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarSistema.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/TelaPrincipal.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/SistemaAbstrato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/util/CatalogoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/interfaces/RepositorioSistema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="90">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/main/Fachada.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/Sistema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="90">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarCliente.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/TelaPrincipal.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/negocio/CadastroSistema.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/SistemaWeb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="90">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarSistema.html">
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/SistemaAccess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/repositorio/RepositorioSistemaHibernate.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/SistemaBi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        <state relative-caret-position="90">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/CadastrarSistema.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/interfaces/RepositorioSistema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/gov/pe/educacao/view/TelaPrincipal.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/interfaces/RepositorioUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/entidades/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/main/TesteConexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/CrudSistema.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/CrudUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/repositorio/RepositorioUsuarioHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/repositorio/RepositorioSistemaHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/util/CatalogoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudSistema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudSistema.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/view/CrudUsuario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/UsuarioNaoCadastradoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/CampoObrigatorioNaoPreenchidoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/UsuarioInvalidoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/CampoNumericoPreenchidoComLetrasException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/negocio/excecoes/UsuarioJaCadastradoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/main/TestaConexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/main/Fachada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/eric/catalogo/util/CatalogoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
