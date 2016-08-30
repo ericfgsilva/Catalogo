@@ -30,8 +30,6 @@ public abstract class PerfilAbstrato implements Serializable{
     protected boolean permissaoAlterar;
     @Column(name="permissaoExcluir")
     protected boolean permissaoExcluir;
-    @ManyToOne(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
-    protected Perfil perfil;
 
     public PerfilAbstrato(){
     }
@@ -44,14 +42,6 @@ public abstract class PerfilAbstrato implements Serializable{
         this.permissaoAlterar=permissaoAlterar;
         this.permissaoExcluir=permissaoExcluir;
     }
-
-    public PerfilAbstrato(String nome, String descricao, boolean permissaoIncluir, boolean permissaoLer, boolean permissaoAlterar, boolean permissaoExcluir, Perfil perfil){
-        this(nome, descricao, permissaoIncluir, permissaoLer, permissaoAlterar, permissaoExcluir);
-        this.perfil=perfil;
-    }
-
-
-
 
     @Override
     public String toString(){

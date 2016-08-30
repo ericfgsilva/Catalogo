@@ -14,12 +14,12 @@ public class Perfil extends PerfilAbstrato implements Serializable{
     public Perfil(){
     }
 
-    public Perfil(String nome, String descricao, boolean incluir, boolean ler, boolean alterar, boolean excluir){
+    public Perfil(String nome, String descricao, boolean permissaoIncluir, boolean permissaoLer, boolean permissaoAlterar, boolean permissaoExcluir){
         this.nome=nome;
         this.descricao=descricao;
-        this.incluir=incluir;
-        this.ler=ler;
-        this.alterar=alterar;
-        this.excluir=excluir;
+        this.permissaoIncluir=permissaoIncluir;
+        this.permissaoLer=permissaoLer;
+        this.permissaoAlterar=permissaoAlterar;
+        this.permissaoExcluir=permissaoExcluir;
     }
 }
