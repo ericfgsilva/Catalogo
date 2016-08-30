@@ -22,101 +22,35 @@ public abstract class PerfilAbstrato implements Serializable{
     protected String nome;
     @Column(name="descricao")
     protected String descricao;
-    @Column(name="incluir")
-    protected boolean incluir;
-    @Column(name="ler")
-    protected boolean ler;
-    @Column(name="alterar")
-    protected boolean alterar;
-    @Column(name="excluir")
-    protected boolean excluir;
+    @Column(name="permissaoIncluir")
+    protected boolean permissaoIncluir;
+    @Column(name="permissaoLer")
+    protected boolean permissaoLer;
+    @Column(name="permissaoAlterar")
+    protected boolean permissaoAlterar;
+    @Column(name="permissaoExcluir")
+    protected boolean permissaoExcluir;
     @ManyToOne(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
     protected Perfil perfil;
 
     public PerfilAbstrato(){
     }
 
-    public PerfilAbstrato(String nome, String descricao, boolean incluir, boolean ler, boolean alterar, boolean excluir){
+    public PerfilAbstrato(String nome, String descricao, boolean permissaoIncluir, boolean permissaoLer, boolean permissaoAlterar, boolean permissaoExcluir){
         this.nome=nome;
         this.descricao=descricao;
-        this.incluir=incluir;
-        this.ler=ler;
-        this.alterar=alterar;
-        this.excluir=excluir;
+        this.permissaoIncluir=permissaoIncluir;
+        this.permissaoLer=permissaoLer;
+        this.permissaoAlterar=permissaoAlterar;
+        this.permissaoExcluir=permissaoExcluir;
     }
 
-    public PerfilAbstrato(String nome, String descricao, boolean incluir, boolean ler, boolean alterar, boolean excluir, Perfil perfil){
-        this(nome, descricao, incluir, ler, alterar, excluir);
+    public PerfilAbstrato(String nome, String descricao, boolean permissaoIncluir, boolean permissaoLer, boolean permissaoAlterar, boolean permissaoExcluir, Perfil perfil){
+        this(nome, descricao, permissaoIncluir, permissaoLer, permissaoAlterar, permissaoExcluir);
         this.perfil=perfil;
     }
 
-    public String getNome() {
-        return nome;
-    }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public boolean isIncluir() {
-        return incluir;
-    }
-
-    public void setIncluir(boolean incluir) {
-        this.incluir = incluir;
-    }
-
-    public boolean isLer() {
-        return ler;
-    }
-
-    public void setLer(boolean ler) {
-        this.ler = ler;
-    }
-
-    public boolean isAlterar() {
-        return alterar;
-    }
-
-    public void setAlterar(boolean alterar) {
-        this.alterar = alterar;
-    }
-
-    public boolean isExcluir() {
-        return excluir;
-    }
-
-    public void setExcluir(boolean excluir) {
-        this.excluir = excluir;
-    }
-
-    public Perfil getPerfil() {
-        return perfil;
-    }
-
-    public void setPerfil(Perfil perfil) {
-        this.perfil = perfil;
-    }
-
-    public void incluirPerfil(Perfil perfil){
-    }
-
-/*    public lerPerfil(String[]){
-    }*/
-
-    public void alterarPerfil(Perfil perfil){
-    }
-
-    public void excluirPerfil(Perfil perfil){
-    }
 
 
     @Override
