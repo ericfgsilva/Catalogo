@@ -2,9 +2,11 @@ package br.com.eric.catalogo.entidades;
 
 import com.sun.jna.platform.win32.LMAccess;
 import com.sun.jna.platform.win32.Netapi32Util;
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.sql.Array;
 
 /**
  * Created by efgs on 28/08/16.
@@ -103,6 +105,19 @@ public abstract class PerfilAbstrato implements Serializable{
     public void setPerfil(Perfil perfil) {
         this.perfil = perfil;
     }
+
+    public void incluirPerfil(Perfil perfil){
+    }
+
+/*    public lerPerfil(String[]){
+    }*/
+
+    public void alterarPerfil(Perfil perfil){
+    }
+
+    public void excluirPerfil(Perfil perfil){
+    }
+
 
     @Override
     public String toString(){
